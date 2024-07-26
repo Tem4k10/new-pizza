@@ -1,0 +1,134 @@
+h1, h2, h3, ul {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+    font-size: 22px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* /* styles for the header / */
+.header {
+    background-color: rgb(221, 103, 82);
+    padding: 10px 0;
+}
+.header-container {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.header-img {
+    width: 120px;
+}
+.header-list {
+    display: flex;
+}
+.header-link {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 50px;
+    color: white;
+}
+.header-link:hover, .header-link:focus {
+    color: blanchedalmond;
+}
+/ main section /
+.hero {
+  padding: 50px 0;
+}
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.hero-title {
+    color: rgb(113, 27, 12);
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.hero-img {
+    width: 500px;
+}
+.hero-text {
+    padding-bottom: 30px;
+}
+/ ingredients for the dough /
+.dough {
+    background-color: rgb(255, 167, 123);
+    padding: 50px 0;
+}
+.dough-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.dough-title {
+    color: brown;
+    font-size: 33px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.dough-img {
+    width: 500px;
+}
+.dough-list {
+    padding-left: 50px;
+    padding-bottom: 25px;
+    list-style: disc;
+}
+/ styles for the third section */
+.ingredients {
+    padding: 50px 0;
+}
+.ingredients-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.ingredients-title {
+    color: brown;
+    font-size: 33px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.ingredients-img {
+    width: 500px;
+}
+.ingredients-list {
+    padding-left: 50px;
+    padding-bottom: 10px;
+    list-style: disc;
+}
+/* підвал */
+.footer{
+    background-color: rgb(221, 103, 82);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.footer-container{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer-text{
+    color: white;
+    font-size: 18px;
+}
+.footer-img{
+    width:30px ;
+    padding-left:20px ;
+}
+.img1{
+    width: 799px;
+}
